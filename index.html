@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7/dist/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+</head>
+<body>
+	<div id="mask" class="mask">
+	</div>
+	<div id="sign-up-div" class="pop-up">
+		<div class="pop-up-header">
+			<span>Sign Up</span>
+		</div>
+		<div class="form-group">
+		    <label for="userName">User Name</label>
+		    <input type="text" class="form-control" id="userName" name="userName">
+		 </div>
+		 <div class="form-group">
+		    <label for="password">Password</label>
+		    <input type="password" class="form-control" id="password" name="password">
+		 </div>
+		 <div class="form-group">
+		    <label for="re-password">Re Password</label>
+		    <input type="password" class="form-control" id="re-password">
+		 </div>
+		 <div class="form-group">
+		 	<button class="btn btn-primary">Sign Up</button>
+		 </div>
+	</div>
+
+	<div id="log-in-div" class="pop-up">
+		<div class="pop-up-header">
+			<span>Log In</span>
+		</div>
+		<div class="form-group">
+		    <label for="userName">User Name</label>
+		    <input type="text" class="form-control" id="userName" name="userName">
+		 </div>
+		 <div class="form-group">
+		    <label for="password">Password</label>
+		    <input type="password" class="form-control" id="password" name="password">
+		 </div>
+		 <div class="form-group">
+		 	<button class="btn btn-primary">Log In</button>
+		 </div>
+	</div>
+
+
+	<header>
+			<div class="container-fluid">
+				<div class="row header-content-container">
+					<div class="col-md-5 header-content-parent">
+						<div class="header-content header-content-right">
+							<p>BEST LATE NIGHT BURGER OF 2015<br/>
+								FROM FASTFOODMAG.COM AWARDS
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 header-content-img-parent">
+						<div class="header-content-img"></div>
+					</div>
+					<div class="col-md-5 header-content-parent">
+						<div class="header-content header-content-left">
+							<p>500 TERRY FRANCOIS ST. SAN FRANCISCO,<br/>
+								CA 94158  T: 123-456-7890
+							</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</header>
+		<div class="nav-bar-min-parent-wraper">
+			<div class="container nav-bar-min-parent">
+				<nav class="navbar navbar-mine">
+					<div class="navbar-header">
+						<div class="brand-badge">
+							<span style="position: absolute;left: 25px;top: 25px;font-size: 27px;">Order</span><br/>
+							<span style="position: absolute;left: 23px;top: 61px;font-size: 26px;">Online</span>
+						</div>
+						<button class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#mynavbar">
+							 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="mynavbar">
+							<ul class="nav navbar-nav">
+								<li class="nav-item nav-item-active"><a href="#">HOME</a></li>
+								<li class="nav-item"><a href="#our-kitchen" navTo="our-kitchen">OUR KITCHEN</a></li>
+								<li class="nav-item"><a href="#whats-new" navTo="whats-new">WHAT'S NEW</a></li>
+								<li class="nav-item"><a href="./menu.html" >ORDER ONLINE</a></li>
+								<li class="nav-item"><a href="#location" navTo="location">LOCATION AND CONTACT</a></li>
+							</ul>
+							<button class="btn btn-primary navbar-right navbar-btn navbar-right-btn" id="sign-up-btn">Sign Up</button>
+							<button class="btn btn-primary navbar-right navbar-btn navbar-right-btn" id="log-in-btn">Log In</button>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+	<div class="banner-mine">
+	</div>
+	<div class="bar-kitchen" id="our-kitchen">
+		<span>INSIDE OUR KITCHEN</span>
+	</div>
+	<div class="bar-kitchen-content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="kitchen-img-div" id="kitchen-img1"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="kitchen-img-div" id="kitchen-img2"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="kitchen-img-div" id="kitchen-img3"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="kitchen-img-div" id="kitchen-img4"></div>
+				</div>
+				<div class="col-md-6">
+					<div class="kitchen-img-div" id="kitchen-img5"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="banner-message">
+	</div>
+	<div class="bar-kitchen" id="whats-new">
+		<span>WHATS NEW?</span>
+	</div>
+	<div class="whats-new-div">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="box-wrapper">
+						<span>MEET OUR MOST</span>
+						<span>WANTED BURGER</span>
+						<p>We care deeply about quality.<br/>We want to provide good,<br/> fresh burger.</p>
+						<button class="box-wrapper-btn">MENU</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div id="burger-img">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div id="cake-img">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box-wrapper">
+						<span>Butternut, chestnut</span>
+						<span> & lentil cake</span>
+						<p>This stunning cake is a modern take on the classic nut roast, and the ideal vegan centrepiece, accompanied by all the usual trimmings</p>
+						<button class="box-wrapper-btn">MENU</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				
+				<div class="col-md-6">
+					<div class="box-wrapper">
+						<span>Chestnut, spinach & blue </span>
+						<span> cheese en croûte</span>
+						<p>This vegetarian main course is packed with festive flavours like nutmeg and cloves, then wrapped in flaky butter pastry - a real Christmas treat</p>
+						<button class="box-wrapper-btn">MENU</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div id="wrap-img">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="bar-kitchen">
+		<span>CORNER GALLERY</span>
+	</div>
+	<div class="container-fluid">
+		<div class="gallery">
+			<div class="gallery-img">
+			</div>
+			<div class="icon-container">
+				<span class="icon-gallery icon-gallery-active icon-gallery1"></span>
+				<span class="icon-gallery icon-gallery2"></span>
+				<span class="icon-gallery icon-gallery3"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="location-div" id="location">
+		<div class="location-div-header">
+			<span>LOCATION AND CONTACT</span><br>
+			<span>EMAIL: INFO@MYSITE.COM   &nbsp;&nbsp;&nbsp;&nbsp; TEL: 123-456-7890</span>
+		</div>
+		<div class="location-div-content">
+			<div class="container">
+				<div class="col-md-6">
+					<span>RESERVE A TABLE HERE AND WE'LL</span><br/>
+					<span>GET BACK TO YOU TO CONFIRM</span>
+					<div class="form-container-mine">
+							<input type="date" class="input-btn"/>
+							<div class="dropdown-mine">
+								<button class="input-btn">Time<i style="position:absolute;right:10px;top:13px;" class="glyphicon glyphicon-menu-down"></i></button>
+								<ul class="dropdown-menu-mine">
+									<li>10 AM</li>
+									<li>12 AM</li>
+									<li>2 PM</li>
+									<li>4 PM</li>
+									<li>6 PM</li>
+									<li>8 AM</li>
+								</ul>
+							</div>
+
+							<div class="dropdown-mine">
+								<button class="input-btn">Party Size<i style="position:absolute;right:10px;top:13px;" class="glyphicon glyphicon-menu-down"></i></button>
+								<ul class="dropdown-menu-mine">
+									<li>1 Person</li>
+									<li>2 Person</li>
+									<li>3 Person</li>
+									<li>4 Person</li>
+									<li>5 Person</li>
+									<li>6 Person</li>
+								</ul>
+							</div>
+
+							<button class="input-btn" style="color:white!important;text-align:center;background: firebrick;">Book Now</button>
+					</div>
+
+
+				</div>
+				<div class="col-md-6">
+					<span>500 TERRY FRANCOIS ST. SAN FRANCISCO, CA 94158</span><br/>
+					<span>OPENING HOURS: 12:00 PM – 11:00 PM</span>
+					<div class="map-container-mine">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<script src="./jquery.js"></script>
+<script src="./bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+<script>
+	var gallery={
+		currentPos:0,
+		size:3
+	};
+	function animateGallery(){
+		console.log("hi");
+		$('.gallery-img').css('background',"url(\'./images/gallery/img"+(gallery.currentPos+1)+".jpg\')").css("background-size","cover")
+		.css("background-position","center");
+		$(".icon-gallery").removeClass("icon-gallery-active");
+		$(".icon-gallery"+(gallery.currentPos+1)).addClass("icon-gallery-active");
+		gallery.currentPos = (gallery.currentPos + 1)%gallery.size;
+	}
+	setInterval(animateGallery,3500);
+	$(".dropdown-mine .input-btn").bind("click",function(){
+		
+
+		console.log($(this).find("i").hasClass("glyphicon-menu-up"));
+		if($(this).find("i").hasClass("glyphicon-menu-up")){
+			$(this).find("i").removeClass("glyphicon-menu-up");
+			$(this).find("i").addClass("glyphicon-menu-down");
+		}
+		else{
+			$(".dropdown-menu-mine").removeClass("block");
+			$(this).find("i").removeClass("glyphicon-menu-down");
+			$(this).find("i").addClass("glyphicon-menu-up");
+			
+		}
+		$(this).next().toggleClass("block");
+	});
+	$(".dropdown-mine li").bind("click",function(){
+		$(this).parents(".dropdown-mine").find("button").html($(this).text()+"<i style='position:absolute;right:10px;top:13px;' class='glyphicon glyphicon-menu-down'></i>");
+		$(".dropdown-menu-mine").removeClass("block");
+	});
+
+	navigator.geolocation.getCurrentPosition(function(position){
+		 var latlon = position.coords.latitude + "," + position.coords.longitude;
+    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU";
+   $(".map-container-mine").html("<img src='"+img_url+"'>");
+
+	});
+
+
+	$("#sign-up-btn").bind("click",function(){
+		applyMask("sign-up-div");
+		$("#sign-up-div").css('display','block');
+	});
+	$("#log-in-btn").bind("click",function(){
+		applyMask("log-in-div");
+	});
+
+	function applyMask(eleId){
+		function addMask(){
+			$("#mask").css('display',"block");
+			$("body").css("overflow","hidden");
+		}
+
+		function removeMask(){
+			$("#mask").bind("click",function(){
+				$(this).css("display","none");
+				$("body").css("overflow","auto");
+				$('#'+eleId).css('display','none');
+			});
+		}
+		addMask();
+		removeMask();
+		$("#"+eleId).css('top',(($(window).height() / 2)- ($("#"+eleId).height() / 2)));
+		$('#'+eleId).css('display','block');
+	}
+	
+
+
+</script>
+</body>
+</html>

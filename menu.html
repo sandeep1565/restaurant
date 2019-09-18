@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7/dist/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/menu.css">
+</head>
+<body>
+	<div id="mask" class="mask">
+	</div>
+	<div id="sign-up-div" class="pop-up">
+		<div class="pop-up-header">
+			<span>Sign Up</span>
+		</div>
+		<div class="form-group">
+		    <label for="userName">User Name</label>
+		    <input type="text" class="form-control" id="userName" name="userName">
+
+		 </div>
+		 <div class="form-group">
+		    <label for="password">Password</label>
+		    <input type="password" class="form-control" id="password" name="password">
+		    
+		 </div>
+		 <div class="form-group">
+		    <label for="re-password">Re Password</label>
+		    <input type="password" class="form-control" id="re-password">
+		 </div>
+		 <div class="form-group">
+		 	<button class="btn btn-primary">Sign Up</button>
+		 </div>
+	</div>
+
+	<div id="log-in-div" class="pop-up">
+		<div class="pop-up-header">
+			<span>Log In</span>
+		</div>
+		<div class="form-group">
+		    <label for="userName">User Name</label>
+		    <input type="text" class="form-control" id="userName" name="userName">
+		 </div>
+		 <div class="form-group">
+		    <label for="password">Password</label>
+		    <input type="password" class="form-control" id="password" name="password">
+		 </div>
+		 <div class="form-group">
+		 	<button class="btn btn-primary">Log In</button>
+		 </div>
+	</div>
+		<header>
+			<div class="container-fluid">
+				<div class="row header-content-container">
+					<div class="col-md-5 header-content-parent">
+						<div class="header-content header-content-right">
+							<p>BEST LATE NIGHT BURGER OF 2015<br/>
+								FROM FASTFOODMAG.COM AWARDS
+							</p>
+						</div>
+					</div>
+					<div class="col-md-2 header-content-img-parent">
+						<div class="header-content-img"></div>
+					</div>
+					<div class="col-md-5 header-content-parent">
+						<div class="header-content header-content-left">
+							<p>500 TERRY FRANCOIS ST. SAN FRANCISCO,<br/>
+								CA 94158  T: 123-456-7890
+							</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</header>
+		<div class="nav-bar-min-parent-wraper">
+			<div class="container nav-bar-min-parent">
+				<nav class="navbar navbar-mine">
+					<div class="navbar-header">
+						<div class="brand-badge">
+							<span style="position: absolute;left: 25px;top: 25px;font-size: 27px;">Order</span><br/>
+							<span style="position: absolute;left: 23px;top: 61px;font-size: 26px;">Online</span>
+						</div>
+						<button class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#mynavbar">
+							 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="mynavbar">
+							<ul class="nav navbar-nav">
+								<li class="nav-item "><a href="./index.html">HOME</a></li>
+								<li class="nav-item"><a href="./index.html#our-kitchen" navTo="our-kitchen">OUR KITCHEN</a></li>
+								<li class="nav-item"><a href="./index.html#whats-new" navTo="whats-new">WHAT'S NEW</a></li>
+								<li class="nav-item"><a href="./index.html#" >ORDER</a></li>
+								<li class="nav-item nav-item-active"><a href="#">MENU</a></li>
+								<li class="nav-item"><a href="./index.html#location" navTo="location">CONTACT</a></li>
+							</ul>
+							<button class="btn btn-primary navbar-right navbar-btn navbar-right-btn" id="sign-up-btn">Sign Up</button>
+							<button class="btn btn-primary navbar-right navbar-btn navbar-right-btn" id="log-in-btn">Log In</button>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div id="menu-header">
+			<span>MENU</span>
+		</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="restarant-header-info">
+							<span id="order-type">ORDER FOOD FROM ONLINE</span><br/>
+							<span id="restaurant-name">YumYumDilli</span><br/>
+							<span id="restaurant-address">Kaushambi, Ghaziabad•Costs ₹500.00 for two</span>
+							<span id="head-tag-right">3.6</span>
+						</div>	
+						<div class="restarant-header-content">
+							<div><span>Delivery Time</span><span>60 Min</span>
+							</div>
+							<div><span>Minimum Order</span><span>149.00</span>
+							</div>
+							<div><span>Payments And Online</span><span>Cash And Online</span>
+							</div>
+							<div><span>Recent Order Tracking Streak</span>
+								<div class="inline-icons-rating">
+									<span>5</span><span>4</span><span>4</span><span>5</span><span>3</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="client-address-wrapper">
+							<div class="client-address-header">
+								Delivery Location
+							</div>
+							<div class="client-address-content">
+								
+								<div class="dropdown-mine">
+									<button class="input-btn" style="margin-top:0px !important;border:1px solid #e7e7e7;">Your's Location<i style="position:absolute;right:10px;top:13px;" class="glyphicon glyphicon-menu-down"></i></button>
+									<ul class="dropdown-menu-mine" style="background:white;border:1px solid #e7e7e7;">
+										<li>Vasundhara sect 1-5</li>
+										<li>Vasundhara sect 6-10</li>
+										<li>Vasundhara sect 11-15</li>
+										<li>Vasundhara sect 15-19</li>
+										<li>Vaishali sect 1-2</li>
+										<li>Vaishali sect 3-7</li>
+										<li>Vaishali sect 8-9</li>
+									</ul>
+									<p style="color:green;padding-top:10px;text-align: center;">We deliver orders within 60 minutes.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+		<div class="food-category-bar-fixed">	
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8" style="background:white;margin-top:20px;">
+						<div class="food-category-bar">
+							<ul>
+								<li class="li-active" nav-to="bogo-items-categ">Bogo Items</li>
+								<li nav-to="best-sellers-categ">Best Sellers</li>
+								<li nav-to="mains-categ">Mains</li>
+								<li nav-to="breads-and-rice-categ">Breads And Rice</li>
+								<li nav-to="parathe-ki-galli-categ">Parathe Ki Galli</li>
+								<li nav-to="family-pack-categ">Family Pack</li>
+								<li nav-to="desi-rolls-categ">Desi Rolls</li>
+								<li nav-to="snacks-categ">Snacks</li>
+								<li nav-to="meetha-categ">Meetha</li>
+								<li nav-to="beverages-categ">Beverages</li>
+							</ul>
+							<div style="display: inline-block;background:white;width:20px;height:50px;" class="slide-left"><i class="glyphicon glyphicon-menu-left"></i></div>
+							<div style="display: inline-block;background:white;width:20px;height:50px;" class="slide-right"><i class="glyphicon glyphicon-menu-right "></i></div>
+						</div>
+						<div class="food-search-bar">
+								<input type="text" name="searchVal" id="searchVal" placeholder="Search Menu" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="orders-container-wrapper1">
+			<div class="orders-container-wrapper">
+				<div class="orders-container">
+					<div class="orders-header">
+										Your Order
+					</div>
+					<div class="added-items-container">
+						<div class="ordered-item">
+							<div class="ordered-item-header">
+								<span class="ordered-item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+								<span class="ordered-item-name">Chhola Kulcha [Serves 1]</span>
+							</div>
+							<div class="ordered-item-desc">
+								<div class="btn-sub-val-add-div">
+									<div class="btn-sub-val-add">
+										<span class="btn-sub">-</span>
+										<span class="btn-val">1</span>
+										<span class="btn-add">+</span>
+									</div>
+								</div>
+								<div class="ordered-item-price-div">
+									<span class="icon-mult">X</span>
+									<span><i class="glyphicon glyphicon-usd"></i></span>
+									<span class="ordered-item-val">149</span>
+								</div>
+								<div class="ordered-item-price-final">
+									<span><i class="glyphicon glyphicon-usd"></i></span>
+									<span class="ordered-item-final-val">149</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="added-items-container">
+						<div class="ordered-item">
+							<div class="ordered-item-header">
+								<span class="ordered-item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+								<span class="ordered-item-name">Chhola Kulcha [Serves 1]</span>
+							</div>
+							<div class="ordered-item-desc">
+								<div class="btn-sub-val-add-div">
+									<div class="btn-sub-val-add">
+										<span class="btn-sub">-</span>
+										<span class="btn-val">1</span>
+										<span class="btn-add">+</span>
+									</div>
+								</div>
+								<div class="ordered-item-price-div">
+									<span class="icon-mult">X</span>
+									<span><i class="glyphicon glyphicon-usd"></i></span>
+									<span class="ordered-item-val">149</span>
+								</div>
+								<div class="ordered-item-price-final">
+									<span><i class="glyphicon glyphicon-usd"></i></span>
+									<span class="ordered-item-final-val">149</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sub-total-container">
+						<div class="sub-total-container-head">
+							<span>Sub Total</span>
+							<div style="display: inline-block;float:right;color:rebeccapurple;font-weight:bold;font-size:17px;">
+								<i class="glyphicon glyphicon-usd"></i>
+								<span id="sub-total-price">298</span>
+							</div>
+							<div style="color:#89959B;font-size:12px;">
+								(plus taxes)
+							</div>
+							<div>
+								<input type="text" placeholder="Enter any additional information about order."
+								style="width:100%;padding:3px;margin:10px auto;background:white;display:inline-block;height:50px;border:1px solid gray;"/>
+								<button style="width:100%;background:#018c38;border:0px;font-size:16px;margin-bottom:15px;color:white;padding:10px;">
+									Continue
+								</button>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		
+		
+	<!-- 
+		BOGO ITEMS STARTED
+	-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="bogo-items-categ">
+						<span class="item-category-name">Bogo Items</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Veg Nai Dilli Ki Thali [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">199.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>A combination of comforting palak paneer+ delicious vegetable jalfrezi+fluffy jeera rice+two paranthas+kachumber salad
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Palak Paneer with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Curry in a hari-oops, we mean hurry? Palak paneer to the rescue! Soft paneer cooked in a spiced palak gravy, served with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Veg Purani Dilli Ki Thali [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>De Thali! A combination of royal shahi paneer+creamy dal makhani+fluffy jeera rice+2 paratha+kachumber salad
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Shahi Paneer Rice Bowl [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">199.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Makhmali paneer in a royally spiced tomato-onion gravy served with fluffy rice and kachumber salad. Shahi in all the right ways.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Shahi Paneer with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Makhmali paneer in a royally spiced tomato-onion gravy served with 3 paranthas and kachumber salad. Shahi in all the right ways.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Veg Jalfrezi with Lachha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>A product of the British Raj adopted by India ever so beautifully! Sweet, spicy, tangy, yummy mixed vegetable Jalfrezi served with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Bunny Chow [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">179.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Bunny Khao! Dig into this amazing bread bowl filled with a masaledaar chhole curry with onion salsa and a zingy lemon wedge.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Butter Chicken Rice Bowl [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">239.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with creamy butter bursting with flavour and spices, along with fluffy rice and kachumber salad!
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			BOGO ITEMS STARTED
+		-->
+
+
+		<!-- 
+			BEST SELLERS STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="best-sellers-categ">
+						<span class="item-category-name">Best Sellers</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			BEST SELLERS ENDED
+		-->
+
+
+
+		<!-- 
+			MAINS STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="mains-categ">
+						<span class="item-category-name">Mains</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			MAINS ENDED
+		-->
+		
+
+
+		<!-- 
+			BREADS AND RICE STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="breads-and-rice-categ">
+						<span class="item-category-name">Breads And Rice</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			BREADS AND RICE ENDED
+		-->
+
+
+		<!-- 
+			PARATHE KI GALLI STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="parathe-ki-galli-categ">
+						<span class="item-category-name">Parathe Ki Galli</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			PARATHE KI GALLI ENDED
+		-->
+
+		<!-- 
+			FAMILY PACK STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="family-pack-categ">
+						<span class="item-category-name">Family Pack</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			FAMILY PACK ENDED
+		-->
+
+		<!-- 
+			DESI ROLLS STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="desi-rolls-categ">
+						<span class="item-category-name">Desi Rolls</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			DESI ROLLS ENDED
+		-->
+
+		<!-- 
+			SNACKS STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="snacks-categ">
+						<span class="item-category-name">Snacks</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			SNACKS ENDED
+		-->
+
+		<!-- 
+			MEETHA STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="meetha-categ">
+						<span class="item-category-name">Meetha</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			MEETHA ENDED
+		-->
+
+
+		<!-- 
+			BEVERAGES STARTED
+		-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="item-category-header" id="beverages-categ">
+						<span class="item-category-name">Beverages</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Chhola Kulcha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">149.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>Get the full Punjabi Dhaba experience with chatpata chhole bursting with flavour and spices, along with 2 freshly baked, fluffy kulchas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 item-category-item">
+						<span class="item-type-icon"><i class="glyphicon glyphicon-record veg-icon"></i></span>
+						<span class="item-name">Dal Makhani with Laccha Paratha [Serves 1]</span>
+						<div class="item-price-heaad">
+							<i class="glyphicon glyphicon-usd"></i><span class="item-price-val">159.00</span>
+							<span class="item-price-icon">Bogo</span>
+						</div>
+						<p>If Dal is not Makhani, is it even dal? The most authentic dal makhani you'll ever have, with 3 paranthas and kachumber salad.
+						</p>
+						<div class="add-item-box">
+							<div class="add-item-btn">
+								ADD
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<!-- 
+			BEVERAGES ENDED
+		-->
+<script src="./jquery.js"></script>
+<script src="./bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+<script>
+	
+	$(".dropdown-mine .input-btn").bind("click",function(){
+		console.log($(this).find("i").hasClass("glyphicon-menu-up"));
+		if($(this).find("i").hasClass("glyphicon-menu-up")){
+			$(this).find("i").removeClass("glyphicon-menu-up");
+			$(this).find("i").addClass("glyphicon-menu-down");
+		}
+		else{
+			$(".dropdown-menu-mine").removeClass("block");
+			$(this).find("i").removeClass("glyphicon-menu-down");
+			$(this).find("i").addClass("glyphicon-menu-up");
+			
+		}
+		$(this).next().toggleClass("block");
+	});
+
+	$(".dropdown-mine li").bind("click",function(){
+		$(this).parents(".dropdown-mine").find("button").html($(this).text()+"<i style='position:absolute;right:10px;top:13px;' class='glyphicon glyphicon-menu-down'></i>");
+		$(".dropdown-menu-mine").removeClass("block");
+	});
+
+
+
+	$("#sign-up-btn").bind("click",function(){
+		applyMask("sign-up-div");
+		$("#sign-up-div").css('display','block');
+	});
+	$("#log-in-btn").bind("click",function(){
+		applyMask("log-in-div");
+	});
+	
+	$(".orders-container-wrapper1").css('top',$(".food-category-bar-fixed").offset().top + 20);
+	
+	function applyMask(eleId){
+		function addMask(){
+			$("#mask").css('display',"block");
+			$("body").css("overflow","hidden");
+		}
+
+		function removeMask(){
+			$("#mask").bind("click",function(){
+				$(this).css("display","none");
+				$("body").css("overflow","auto");
+				$('#'+eleId).css('display','none');
+			});
+		}
+		addMask();
+		removeMask();
+		$("#"+eleId).css('top',(($(window).height() / 2)- ($("#"+eleId).height() / 2)));
+		$('#'+eleId).css('display','block');
+	}
+
+	$(window).scroll(function(){
+		var topPos = $(".food-category-bar-fixed").offset();
+		$(".orders-container-wrapper1").css('top',topPos.top + 20);
+	});
+
+	$(".food-category-bar li").bind("click",function(){
+		$(".food-category-bar li").removeClass("li-active");
+		$(this).addClass('li-active');
+		scrollTo($(this).attr('nav-to'));
+	});
+
+	function scrollTo(targetElementId){
+		var offsetHeight = $('#'+targetElementId).offset().top;
+		var heightToScroll = offsetHeight - $(window).scrollTop();
+		heightToScroll = heightToScroll - 65;
+		var scrollThis = heightToScroll / 10;
+		var count = 0;
+		var scrollInt = setInterval(function(){window.scrollBy(0,scrollThis);
+			++count;
+			if(count == 10){
+				clearInterval(scrollInt);
+			}
+		},100);
+
+	}
+
+	$(".add-item-btn").bind("click",addButtonControl);
+	function addButtonControl(){
+		var parentDiv = $(this).parents(".item-category-item");
+		var btnParent = $(this).parents(".add-item-box");
+		var nameOfItem = parentDiv.find(".item-name").text().trim();
+		var itemPrice = Number(parentDiv.find(".item-price-val").text().trim());
+		var btnVal;
+
+		var orderedItemDiv = $(".orders-container .ordered-item").filter(function(index,itemDiv){
+			if($(itemDiv).attr('id') == nameOfItem){
+				return true;
+			}
+		});
+		$(this).css('display','none');
+		if(btnParent.find('.btn-sub-val-add-div')[0] == undefined){
+				var newAddSubBtn = $('<div class="btn-sub-val-add-div" style="position:absolute;top:1px;left:-1px;">'+
+									'<div class="btn-sub-val-add" style="position:absolute;top:-3px;width:80px;height:31px;">'+
+										'<span class="btn-sub">-</span>'+
+										'<span class="btn-val">1</span>'+
+										'<span class="btn-add">+</span>'+
+									'</div>'+
+								'</div>');
+				btnParent.append($(newAddSubBtn));
+				btnVal = btnParent.find('.btn-sub-val-add-div .btn-val');
+				btnParent.find('.btn-sub').bind('click',btnSubItemsAction);
+				btnParent.find('.btn-add').bind('click',btnAddItemsAction);
+
+		}
+		else{
+			btnVal = btnParent.find('.btn-sub-val-add-div .btn-val');
+			btnParent.find('.btn-sub-val-add-div').css('display','inline-block');
+			btnVal.text("1");
+		}
+		
+
+		function btnSubItemsAction(){
+			btnVal.text(Number(btnVal.text().trim()) - 1);
+			if(Number(btnVal.text().trim()) == 0){
+				btnParent.find('.add-item-btn').css('display','inline-block');
+				btnParent.find('.btn-sub-val-add-div').css('display','none');
+			}
+		}
+		function btnAddItemsAction(){
+			btnVal.text(Number(btnVal.text().trim()) + 1);
+			if(Number(btnVal.text().trim()) == 1){
+				btnParent.find('.add-item-btn').css('display','none');
+				btnParent.find('.btn-sub-val-add-div').css('display','inline-block');
+			}
+		}
+	}
+
+
+	barSlide();
+	function barSlide(){
+		var fixedWidthDiv = $(".food-category-bar");
+		var ulDiv = $(".food-category-bar ul");
+		var leftPos = 0;
+		var frameWidth = fixedWidthDiv.width(); 
+		var listWidth = 0;
+		var listItemsWidth = [];
+		var leftIcon = $(".slide-left");
+		var rightIcon = $(".slide-right");
+		var extraRight = 0;
+		var extraLeft = 0;
+
+		ulDiv.map(function(index,elementDiv){
+			listWidth += $(elementDiv).width();
+			listItemsWidth[index] = $(elementDiv).width();
+		});
+
+		leftIcon.css('display','none');
+		if(frameWidth >= listWidth){
+			rightIcon.css('display','none');
+		}
+		else{
+			extraRight = listWidth - frameWidth;
+		}
+		console.log(frameWidth,listWidth);
+		console.log(extraLeft,extraRight);
+
+		leftIcon.bind('click',slideToLeft);
+		rightIcon.bind('click',slideToRight);
+
+		function slideToRight(){
+			var xPixels = 0;
+			if(extraRight >= 100){
+				xPixels = 100;
+			}
+			else{
+				xPixels = extraRight;
+			}
+			extraLeft += xPixels;
+			extraRight -= xPixels;
+			leftPos = leftPos + xPixels;
+
+			if(extraRight == 0){
+				rightIcon.css('display','none');
+			}
+			leftIcon.css('display','inline-block');
+			ulDiv.css('left',-leftPos);
+
+			console.log("leftPos "+leftPos);
+		}
+
+		function slideToLeft(){
+			var xPixels = 0;
+			if(extraLeft >= 100){
+				xPixels = 100;
+			}
+			else{
+				xPixels = extraLeft;
+			}
+			extraLeft -= xPixels;
+			extraRight += xPixels;
+			leftPos = leftPos - xPixels;
+
+			if(extraLeft == 0 ){
+				leftIcon.css('display','none');
+			}
+			rightIcon.css('display','inline-block');
+			ulDiv.css('left',-leftPos);
+			console.log("leftPos "+leftPos);
+		}
+	}
+	
+
+
+
+</script>
+</body>
+</html>
